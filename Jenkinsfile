@@ -48,7 +48,7 @@ pipeline{
     }
   }
   post{
-    sucess{
+    success{
       echo 'docker image successfully published'
     }
     failure{
